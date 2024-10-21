@@ -1,0 +1,104 @@
+    @font-face {
+        font-family: "myFont";
+        src: url("HVD_Peace.ttf");
+    }
+
+    body {
+        font-family: "myFont";
+        margin: 0px;
+    }
+
+    nav {
+        background-color: #af3e43;
+        overflow: hidden;
+        min-height: 11vh;
+    }
+
+    ul {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    li {
+        list-style-type: none;
+        float: left;
+        padding-left: 1.3em;
+    }
+
+    button {
+        display: block;
+        text-align: center;
+        background-color: #ff969b;
+        padding: 1rem 4rem;
+        border-radius: 10px;
+        border: none;
+    }
+
+    button:hover {
+        background: url(images/images.jpeg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 1rem 4.2rem;
+        box-shadow: 0 4px 8px rgba(255, 255, 255);
+        cursor: pointer;
+    }
+
+    #background {
+        padding: 1rem 0;
+        margin: 0;
+        min-height: 800px;
+        background: url(images/met_hintergrund.jpeg) no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        background: transparent;
+        text-align: center;
+        line-height: 1em;
+        color: white;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+
+    span {
+        color: #af3e43;
+    }
+
+    #content {
+        background-color: #ff969b;
+        width: 60%;
+        min-height: 650px;
+        border-radius: 15px;
+        margin: 0 auto;
+        overflow: scroll;
+        border: 10px solid transparent;
+        border-image: url("./images/met_hintergrund.jpeg") 90 round;
+    }
+
+    .entry {
+        overflow: auto;
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .entry>img {
+        float: left;
+        margin: 1em;
+    }
+
+    .centerMe {
+        display: flex;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        padding: 1rem;
+    }
